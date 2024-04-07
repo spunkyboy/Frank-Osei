@@ -1,0 +1,209 @@
+
+/* Tablets Landscape */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS code for tablets in landscape mode */
+  html {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif; 
+  }
+  .navigation-items a{
+    text-decoration: none;
+    color: rgb(234, 237, 241);
+  }
+  #flex-cont{
+    justify-content: space-between;
+    text-align: center;
+   }
+   .flex-container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: #2F4F4F;
+    width: 100%;
+    height: 6rem;
+    padding: auto 0;
+    text-align: center;
+   }
+   .wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .navigation-items{
+    display: flex;
+    padding-right: 2rem;
+    }
+   .navigation-items li {
+    padding: 0.5em 0.5em;
+    font-family: 'Kalam', cursive;
+    margin: auto 0;
+   } 
+   nav h2 a {
+    text-decoration: none;
+    color: rgb(252, 254, 255);
+   }
+   ul li a:hover {
+    border-bottom: 0.1rem solid rgb(255, 255, 254);
+    transition: width 2s;
+   }
+   #logo {
+    font-size: 1.5em;
+    font-family: 'Righteous', sans-serif;
+    color: rgb(234, 237, 241);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+   }
+  .home-me-text-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 1.6rem;
+    font-family: 'Kalam', cursive;
+   }
+   .home-me-text-container h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem 0rem;
+   }
+   .home-me-text-container p {
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   }
+   .home-content-flex {
+    display: flex;
+    justify-content: space-between;
+   }
+   button{
+    margin-top: auto;
+    background-color: #2F4F4F;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+   }
+   button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   }
+   .home-contact-icons li{
+    display: none; 
+  }
+  .home-contact-text {
+    margin-top: 5.5rem;
+  }
+  .skills {
+    margin-top: 1rem;
+  }
+  .fa-brands{
+    font-size: 1.5rem;
+  }
+  .skills li {
+    display: inline-block;
+    margin-left: auto;
+    margin-left: auto;
+  }
+    
+ul.skills {
+  padding: 20px;
+  text-align: center;
+}
+
+ul.skills li {
+  display: inline-block;
+  list-style: none;
+  margin: 2rem 1rem;
+}
+
+.fa-brands{
+  font-size: 1.5rem;
+}
+.skills .category {
+  color: black;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: block;
+  font-size: 2rem;
+}
+.skills p {
+  font-size: 1rem;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #2F4F4F;
+  padding-left: 2rem;
+  font-weight: bold;
+  color: rgb(229, 237, 244);
+  padding: 0.3rem 0.5rem;
+}
+/*about me page content */
+
+.about-me-container{
+  margin-top: 6rem; 
+}
+.about-me-container p {
+  text-align: right;
+  text-transform: capitalize;
+  padding-right: 1rem;
+  font-size: 1rem;
+  font-family: 'Kalam', cursive;
+  line-height: 1.6rem;
+  padding-bottom: 1rem;
+ }
+ .about-me-container h1 {
+  text-align: right;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-family: 'Kalam', cursive;
+  padding: 2rem 1rem;
+ }
+ .about-me-text-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 1.6rem;
+    font-family: 'Kalam', cursive;
+ }
+ figure figcaption{
+  display: none;
+}
+.frank-image-home {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 15rem;
+}
+.frank-image-about {
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 1rem;
+  float: left;
+} 
+/* contact info page */
+.main-contact-text h1 {
+  display: block;
+  font-family: 'Kalam', cursive;
+  font-size: 1.6rem; 
+  margin-bottom: 2rem;
+}
+.main-contact-text {
+  margin-top: 10rem;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.main-contact-text p {
+  font-family: 'Kalam', cursive;
+}
+.contact-icons li a {
+  text-decoration: none;
+}
+.contact-icons li {
+  display: inline-block;
+  padding: 2rem;
+}
+.contact-icons a {
+  color: #2F4F4F;
+}
+  }
+
