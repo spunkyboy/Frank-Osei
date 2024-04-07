@@ -1,6 +1,6 @@
 
     const timeContainer = document.getElementById("time-container");
-    const BIRTH_DAY = "12-06-2023";
+    const BIRTH_DAY = "2023-12-06";
     const BIRTH_DAY_DATE = new Date(BIRTH_DAY);
     const intlNumberFormatter = new Intl.NumberFormat("en-US");
 
