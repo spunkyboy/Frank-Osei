@@ -34,12 +34,17 @@
     }
    .navigation-items li {
     padding: 0.5em 0.5em;
-    font-family: 'Kalam', cursive;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     margin: auto 0;
    } 
    nav h2 a {
     text-decoration: none;
     color: rgb(252, 254, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
    }
    ul li a:hover {
     border-bottom: 0.1rem solid rgb(255, 255, 254);
@@ -47,7 +52,6 @@
    }
    #logo {
     font-size: 1.5em;
-    font-family: 'Righteous', sans-serif;
     color: rgb(234, 237, 241);
     margin-top: auto;
     margin-bottom: auto;
@@ -63,11 +67,16 @@
     text-align: center;
     font-size: 1.5rem;
     padding: 2rem 0rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
    }
    .home-me-text-container p {
     text-align: center;
     padding-bottom: 2rem;
-    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     padding-left: 1rem;
     padding-right: 1rem;
    }
@@ -86,6 +95,9 @@
     background-color: #2F4F4F;
     color: rgb(255, 255, 255);
     padding: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
    }
    button a {
     color: rgb(255, 255, 255);
@@ -119,18 +131,27 @@ ul.skills li {
 }
 .skills .category {
   color: black;
-  font-weight: 100;
+  margin-bottom: 1rem;
   letter-spacing: 2px;
   display: block;
   font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.icon-name{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .skills p {
   font-size: 1rem;
   text-align: left;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   background-color: #2F4F4F;
   padding-left: 2rem;
-  font-weight: bold;
   color: rgb(229, 237, 244);
   padding: 0.3rem 0.5rem;
 }
@@ -141,18 +162,20 @@ ul.skills li {
 }
 .about-me-container p {
   text-align: right;
-  text-transform: capitalize;
   padding-right: 1rem;
   font-size: 1rem;
-  font-family: 'Kalam', cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   line-height: 1.6rem;
   padding-bottom: 1rem;
  }
  .about-me-container h1 {
   text-align: right;
-  text-transform: capitalize;
   font-size: 1rem;
-  font-family: 'Kalam', cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   padding: 2rem 1rem;
  }
  .about-me-text-container {
@@ -182,7 +205,9 @@ ul.skills li {
   /* contact info page */
 .main-contact-text h1 {
   display: block;
-  font-family: 'Kalam', cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 1.6rem; 
   margin-bottom: 2rem;
 }
@@ -192,7 +217,9 @@ ul.skills li {
   padding: 2rem 1rem;
 }
 .main-contact-text p {
-  font-family: 'Kalam', cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .contact-icons li a {
   text-decoration: none;

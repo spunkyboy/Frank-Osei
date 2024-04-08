@@ -3,8 +3,7 @@
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 
   html {
-    font-size: 16px;
-    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
   }
   .navigation-items a{
     text-decoration: none;
@@ -27,15 +26,23 @@
    .navigation-items{
     display: flex;
     padding-right: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     }
    .navigation-items li {
     padding: 0.5em 0.5em;
-    font-family: 'Kalam', cursive;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     margin: auto 0;
    } 
    nav h2 a {
     text-decoration: none;
     color: rgb(252, 254, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
    }
    ul li a:hover {
     border-bottom: 0.1rem solid rgb(255, 255, 254);
@@ -65,15 +72,19 @@
     text-align: center;
     font-size: 1.5rem;
     padding: 2rem 0rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
    }
    .home-me-text-container p {
     text-align: center;
     padding-bottom: 2rem;
-    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     padding-left: 1rem;
     padding-right: 1rem;
    }
-   
    .home-content-flex {
     display: flex;
     justify-content: space-between;
@@ -83,6 +94,10 @@
     background-color: #2F4F4F;
     color: rgb(255, 255, 255);
     padding: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
    }
    button a {
     color: rgb(255, 255, 255);
@@ -116,64 +131,48 @@ ul.skills li {
 }
 .skills .category {
   color: black;
-  font-weight: 100;
+  margin-bottom: 1rem;
   letter-spacing: 2px;
   display: block;
   font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .skills p {
   font-size: 1rem;
   text-align: left;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   background-color: #2F4F4F;
   padding-left: 2rem;
-  font-weight: bold;
   color: rgb(229, 237, 244);
   padding: 0.3rem 0.5rem;
 }
 /*about me page content 
-
-.about-me-container{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 6rem;
-}
 */
 .about-me-container{
   margin-top: 6rem;
 }
 .about-me-container p {
   text-align: right;
-  text-transform: capitalize;
   padding-right: 1rem;
   font-size: 1rem;
-  font-family: 'Kalam', cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   line-height: 1.6rem;
   padding-bottom: 1rem;
  }
  .about-me-container h1 {
   text-align: right;
-  text-transform: capitalize;
   font-size: 1rem;
-  font-family: 'Kalam', cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   padding: 2rem 1rem;
  }
- /*
- .about-me-text-container h1{
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 2rem 0rem;
-  color: #2F4F4F;
-  text-align: left;
-  padding-left: 1rem;
- }
- .about-me-text-container {
-    margin-top: auto;
-    margin-bottom: auto;
-    line-height: 1.6rem;
-    font-family: 'Kalam', cursive;
- }
- */
  figure figcaption{
   display: none;
 }
@@ -193,10 +192,17 @@ ul.skills li {
   margin-right: 1rem;
   float: left;
 }
+.skills .icon-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 /* contact info page */
 .main-contact-text h1 {
   display: block;
-  font-family: 'Kalam', cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.6rem; 
   margin-bottom: 2rem;
 }
@@ -206,7 +212,10 @@ ul.skills li {
   padding: 2rem 1rem;
 }
 .main-contact-text p {
-  font-family: 'Kalam', cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
 }
 .contact-icons li a {
   text-decoration: none;

@@ -4,8 +4,7 @@
 
 html {
   font-size: 16px;
-  font-family: 'Arial', sans-serif; 
-}
+  }
 .navigation-items a{
   text-decoration: none;
   color: rgb(234, 237, 241);
@@ -27,15 +26,23 @@ html {
  .navigation-items{
   display: flex;
   padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
  }
  .navigation-items li {
   padding: 0.5em 0.5em;
-  font-family: 'Kalam', cursive;
   margin: auto 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
  } 
  nav h2 a {
   text-decoration: none;
   color: rgb(252, 254, 255);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
  } 
  ul li a:hover {
   border-bottom: 0.1rem solid rgb(255, 255, 254);
@@ -44,7 +51,6 @@ html {
 
  #logo {
   font-size: 1.5em;
-  font-family: 'Righteous', sans-serif;
   color: rgb(234, 237, 241);
   margin-top: auto;
   margin-bottom: auto;
@@ -55,6 +61,10 @@ html {
   background-color: #2F4F4F;
   color: rgb(255, 255, 255);
   padding: 0.5rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
  }
  button a {
   color: rgb(255, 255, 255);
@@ -82,11 +92,12 @@ figure figcaption{
 }
 .home-me-text-container p{
   text-align: center;
-  text-transform: capitalize;
   line-height: 1.5em;
   font-size: 1.2rem;
-  font-family: 'Kalam', cursive;
   padding: 0rem 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
  }
  .home-me-text-container h1{
   font-size: 1.5rem;
@@ -94,8 +105,9 @@ figure figcaption{
   margin-top: 3rem;
   margin-left: auto;
   text-align: center;
-  font-family: 'Kalam', cursive;
-  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
  }
  .home-me-container{
   text-align: center;
@@ -114,20 +126,29 @@ ul.skills li {
 }
 .skills .category {
   color: black;
-  font-weight: 100;
+  margin-bottom: 1rem;
   letter-spacing: 2px;
   display: block;
   font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.skills .icon-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .skills p {
   font-size: 1rem;
   text-align: left;
-  font-family: 'Courier New', Courier, monospace;
   background-color: #2F4F4F;
   padding-left: 2rem;
-  font-weight: bold;
   color: rgb(229, 237, 244);
   padding: 0.3rem 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .home-contact-text{
   right: 0rem;
@@ -146,20 +167,22 @@ ul.skills li {
 /* about me page Heading and text */
 .about-me-container p {
   text-align: center;
-  text-transform: capitalize;
   padding-right: 1rem;
   padding-left: 1rem;
   font-size: 1rem;
-  font-family: 'Kalam', cursive;
   line-height: 1.6rem;
   padding-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
  }
  .about-me-container h1 {
   text-align: right;
-  text-transform: capitalize;
   font-size: 1rem;
-  font-family: 'Kalam', cursive;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
  }
  /* contact info mobile page  */
  ul.contact-icons li {
@@ -184,7 +207,6 @@ ul.contact-icons a {
 }
 .main-contact-text h1 {
   display: block;
-  font-family: 'Kalam', cursive;
   font-size: 1.6rem; 
   margin-bottom: 2rem;
 }
@@ -195,6 +217,8 @@ ul.contact-icons a {
   line-height: 1.6rem;
 }
 .main-contact-text p {
-  font-family: 'Kalam', cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 }
