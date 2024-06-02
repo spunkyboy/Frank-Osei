@@ -79,6 +79,7 @@
     text-align: center;
     padding-bottom: 2rem;
     padding-left: 1rem;
+    font-size: 1rem;
     padding-right: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -164,6 +165,26 @@ ul.skills li {
 .about-me-container{
   margin-top: 6rem; 
 }
+ul.skills {
+  padding: 20px;
+  text-align: center;
+}
+ul.skills li {
+  display: inline-block;
+  list-style: none;
+  margin: 2rem 1rem;
+}
+.skills p {
+  font-size: 1rem;
+  text-align: left;
+  background-color: #2F4F4F;
+  padding-left: 2rem;
+  color: rgb(229, 237, 244);
+  padding: 0.3rem 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 .about-me-container p {
   text-align: right;
   padding-right: 1rem;
@@ -171,7 +192,7 @@ ul.skills li {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-  line-height: 1.6rem;
+  line-height: 1.7rem;
   padding-bottom: 1rem;
  }
  .about-me-container h1 {
@@ -209,7 +230,7 @@ ul.skills li {
 /* contact info page */
 .main-contact-text h1 {
   display: block;
-  font-family: 'Kalam', cursive;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem; 
   margin-bottom: 2rem;
 }

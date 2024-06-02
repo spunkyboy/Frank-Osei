@@ -93,7 +93,7 @@ figure figcaption{
 .home-me-text-container p{
   text-align: center;
   line-height: 1.5em;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0rem 1rem;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -170,7 +170,7 @@ ul.skills li {
   padding-right: 1rem;
   padding-left: 1rem;
   font-size: 1rem;
-  line-height: 1.6rem;
+  line-height: 1.7rem;
   padding-bottom: 1rem;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -209,6 +209,7 @@ ul.contact-icons a {
   display: block;
   font-size: 1.6rem; 
   margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
 }
 .main-contact-text {
   margin-top: 10rem;
