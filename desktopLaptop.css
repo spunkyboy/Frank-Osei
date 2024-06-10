@@ -1,85 +1,65 @@
-/* Desktops and Laptops */
 @media only screen and (min-width: 1281px) {
-  /* CSS code for desktops and laptops */
   html {
     font-size: 16px;
-    font-family: 'Arial', sans-serif; 
   }
-  .navigation-items a{
-    text-decoration: none;
-    color: rgb(234, 237, 241);
-  }
-  #flex-cont{
+  .navbar {
+    width:1000px;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
     justify-content: space-between;
-    text-align: center;
-   }
-   .flex-container {
-    display: flex;
+    height: 8rem;
     position: fixed;
     top: 0;
-    background-color: #2F4F4F;
-    width: 100%;
-    height: 6rem;
-    padding: auto 0;
-    text-align: center;
-   }
-   .wrapper {
-    width: 80%;
+    background-color:rgb(255, 255, 255);
+  }
+  .wrapper{
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
-   }
-   .navigation-items{
-    display: flex;
-    padding-right: 2rem;
-    }
-   .navigation-items li {
-    padding: 0.5em 0.5em;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    margin: auto 0;
-   } 
-   nav h2 a {
+  }
+  .header-branding a{
+    color:#131b02;
+    padding-left: 0.5rem;
     text-decoration: none;
-    color: rgb(252, 254, 255);
+    font-weight: 600;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-   }
-   ul li a:hover {
-    border-bottom: 0.1rem solid rgb(255, 255, 254);
-    transition: width 2s;
-   }
-   #logo {
-    font-size: 1.5em;
-    color: rgb(234, 237, 241);
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 2rem;
-   }
-  .home-me-text-container {
-    margin-top: auto;
-    margin-bottom: auto;
-    line-height: 1.6rem;
-    font-family: 'Kalam', cursive;
-   }
+    font-size: 1.5rem;
+  }
+  .navlinks a{
+    text-decoration: none;
+    color:#131b02;
+    padding: 0 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+  }
    .home-me-text-container h1 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 2rem 0rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color:#131b02;
    }
    .home-me-text-container p {
     text-align: center;
+    font-size: 1.2rem;
     padding-bottom: 2rem;
-    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    color:#131b02;
+    line-height: 1.5rem;
+   }
+   .home-content-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#c4d2a9, #6B8E23);
+    border: 0.5rem solid rgb(241, 248, 244);
    }
    .home-contact-icons li{
     display: none; 
@@ -87,21 +67,14 @@
   .home-contact-text {
     margin-top: 5.5rem;
   }
-   .home-content-flex {
-    display: flex;
-    justify-content: space-between;
-   }
-   button{
+  .download{
     margin-top: auto;
-    background-color: #2F4F4F;
-    color: rgb(255, 255, 255);
+    background-color:rgb(250, 250, 250);
+    color:#131b02;
     padding: 0.5rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-   }
-   button a {
-    color: rgb(255, 255, 255);
     text-decoration: none;
    }
   .skills {
@@ -114,19 +87,16 @@
     display: inline-block;
     margin-left: auto;
     margin-left: auto;
-  }
-    
+  }  
 ul.skills {
   padding: 20px;
   text-align: center;
 }
-
 ul.skills li {
   display: inline-block;
   list-style: none;
   margin: 2rem 1rem;
 }
-
 .fa-brands{
   font-size: 1.5rem;
 }
@@ -140,63 +110,57 @@ ul.skills li {
   font-weight: 300;
   font-style: normal;
 }
-.icon-name{
+footer ul li{
+  display: inline-block;
+  margin: 1rem 1rem;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  font-style: normal;
-}
-.skills p {
+  color: rgb(250, 250, 250);
   font-size: 1rem;
+}
+footer ul {
+  background-color: #6B8E23;
+  border: 0.5rem solid rgb(241, 248, 244);
+}
+footer{
+  text-align: center;
+  margin-left: 3rem;
+}
+.sub-head-skills {
+  font-size: 1.2rem;
   text-align: left;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
-  background-color: #2F4F4F;
+  background-color: #6B8E23;
   padding-left: 2rem;
-  color: rgb(229, 237, 244);
-  padding: 0.3rem 0.5rem;
+  color: rgb(241, 248, 244);
+  padding: 0.5rem 0.5rem;
+  border: 0.5rem solid rgb(241, 248, 244);
 }
 /*about me page content */
-
 .about-me-container{
-  margin-top: 6rem; 
-}
-ul.skills {
-  padding: 20px;
-  text-align: center;
-}
-ul.skills li {
-  display: inline-block;
-  list-style: none;
-  margin: 2rem 1rem;
-}
-.skills p {
-  font-size: 1rem;
-  text-align: left;
-  background-color: #2F4F4F;
-  padding-left: 2rem;
-  color: rgb(229, 237, 244);
-  padding: 0.3rem 0.5rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+  margin-top: 7rem; 
+  background: linear-gradient(#c4d2a9, #6B8E23);
+  padding-bottom: 2rem;
+  border: 0.5rem solid rgb(241, 248, 244);
 }
 .about-me-container p {
   text-align: right;
-  padding-right: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-  line-height: 1.7rem;
+  line-height: 2rem;
   padding-bottom: 1rem;
+  padding-right: 1rem;
  }
  .about-me-container h1 {
   text-align: right;
-  font-size: 1rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.5rem;
   padding: 2rem 1rem;
  }
  .about-me-text-container {
@@ -223,7 +187,21 @@ ul.skills li {
   margin-right: 1rem;
   float: left;
 }
+.icon-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
   /* contact info page */
+  .contact-banner-image{
+    display: block;
+    width: 50%;
+    margin-top: 7rem;
+    object-fit: cover;
+    object-position: top;
+    margin-left: auto;
+    margin-right: auto;
+  }
 .main-contact-text h1 {
   display: block;
   font-family: "Poppins", sans-serif;
@@ -233,7 +211,6 @@ ul.skills li {
   margin-bottom: 2rem;
 }
 .main-contact-text {
-  margin-top: 10rem;
   text-align: center;
   padding: 2rem 1rem;
 }
@@ -241,6 +218,7 @@ ul.skills li {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
+  padding-bottom: 3rem;
 }
 .contact-icons li a {
   text-decoration: none;

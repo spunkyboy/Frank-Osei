@@ -1,63 +1,46 @@
   /* CSS code for mobile phones in landscape mode */
- 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-
   html {
     font-size: 16px; 
   }
-  .navigation-items a{
-    text-decoration: none;
-    color: rgb(234, 237, 241);
-  }
-  #flex-cont{
+  .navbar {
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
     justify-content: space-between;
-    text-align: center;
-   }
-   .flex-container {
-    display: flex;
+    height: 8rem;
+    background-color:rgb(255, 255, 255);
     position: fixed;
     top: 0;
-    background-color: #2F4F4F;
-    width: 100%;
-    height: 6rem;
-    padding: auto 0;
-    text-align: center;
-   }
-   .navigation-items{
-    display: flex;
-    padding-right: 2rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    }
-   .navigation-items li {
-    padding: 0.5em 0.5em;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    margin: auto 0;
-   } 
-   nav h2 a {
+  }
+  .header-branding a{
+    color:#131b02;
+    padding-left: 0.5rem;
     text-decoration: none;
-    color: rgb(252, 254, 255);
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-   }
-   ul li a:hover {
-    border-bottom: 0.1rem solid rgb(255, 255, 254);
-    transition: width 2s;
-   }
-   #logo {
-    font-size: 1.5em;
-    font-family: 'Righteous', sans-serif;
-    color: rgb(234, 237, 241);
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 2rem;
-   }
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+  .navlinks a{
+    text-decoration: none;
+    color:#131b02;
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+  }
+  .home-contact-text{
+    right: 0rem;
+    position: absolute;
+    top: 0rem;
+    position: fixed;
+    z-index: 5;
+  }
   .home-contact-icons li{
-    display: none; 
+    display: inline-block;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+  }
+  .home-contact-icons li a {
+    color: #4a690a;
   }
   .home-contact-text {
     margin-top: 5.5rem;
@@ -75,6 +58,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color:#131b02;
    }
    .home-me-text-container p {
     text-align: center;
@@ -85,23 +69,22 @@
     font-style: normal;
     padding-left: 1rem;
     padding-right: 1rem;
+    color:#131b02;
    }
    .home-content-flex {
     display: flex;
     justify-content: space-between;
+    margin-top: 6rem;
+    background: linear-gradient(#c4d2a9, #6B8E23);
    }
-   button{
-    margin-top: auto;
-    background-color: #2F4F4F;
-    color: rgb(255, 255, 255);
+   .download{
+    background-color:rgb(255, 255, 255);
+    color:#131b02;
     padding: 0.5rem;
+    font-size: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1rem;
-   }
-   button a {
-    color: rgb(255, 255, 255);
     text-decoration: none;
    }
   .skills {
@@ -114,19 +97,16 @@
     display: inline-block;
     margin-left: auto;
     margin-left: auto;
-  }
-    
+  }   
 ul.skills {
   padding: 20px;
   text-align: center;
 }
-
 ul.skills li {
   display: inline-block;
   list-style: none;
   margin: 2rem 1rem;
 }
-
 .fa-brands{
   font-size: 1.5rem;
 }
@@ -140,21 +120,35 @@ ul.skills li {
   font-weight: 300;
   font-style: normal;
 }
-.skills p {
+footer ul li{
+  display: inline-block;
+  margin: 1rem 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: rgb(250, 250, 250);
   font-size: 1rem;
-  text-align: left;
+}
+footer{
+  text-align: center;
+  background: linear-gradient(#6B8E23, #6B8E23);
+}
+.sub-head-skills {
+  font-size: 1.2rem;
+  text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #2F4F4F;
+  background-color:#6B8E23;
   padding-left: 2rem;
   color: rgb(229, 237, 244);
-  padding: 0.3rem 0.5rem;
+  padding: 0.5rem 0.5rem;
 }
 /*about me page content 
 */
 .about-me-container{
-  margin-top: 6rem;
+  margin-top: 7rem;
+  background: linear-gradient(#c4d2a9, #6B8E23);
+  padding-bottom: 2rem;
 }
 ul.skills {
   padding: 20px;
@@ -165,32 +159,21 @@ ul.skills li {
   list-style: none;
   margin: 2rem 1rem;
 }
-.skills p {
-  font-size: 1rem;
-  text-align: left;
-  background-color: #2F4F4F;
-  padding-left: 2rem;
-  color: rgb(229, 237, 244);
-  padding: 0.3rem 0.5rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
 .about-me-container p {
   text-align: right;
   padding-right: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-  line-height: 1.7rem;
+  line-height: 2rem;
   padding-bottom: 1rem;
  }
  .about-me-container h1 {
   text-align: right;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   padding: 2rem 1rem;
  }
@@ -219,6 +202,13 @@ ul.skills li {
   font-style: normal;
 }
 /* contact info page */
+
+.contact-banner-image{
+  width: 100%;
+  margin-top: 7rem;
+  object-fit: cover;
+  object-position: top;
+}
 .main-contact-text h1 {
   display: block;
   font-family: "Poppins", sans-serif;
@@ -228,7 +218,6 @@ ul.skills li {
   margin-bottom: 2rem;
 }
 .main-contact-text {
-  margin-top: 10rem;
   text-align: center;
   padding: 2rem 1rem;
 }
@@ -237,6 +226,7 @@ ul.skills li {
   font-weight: 300;
   font-style: normal;
   font-size: 1rem;
+  padding-bottom: 3rem;
 }
 .contact-icons li a {
   text-decoration: none;
