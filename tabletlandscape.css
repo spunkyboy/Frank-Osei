@@ -51,11 +51,12 @@
     font-weight: 300;
     font-style: normal;
     color:#131b02;
+    line-height: 2rem;
    }
    .home-content-flex {
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(#c4d2a9, #6B8E23);
+    background: linear-gradient(#c4d2a9, #a0c852);
    }
    .download{
     margin-top: auto;
@@ -66,6 +67,7 @@
     font-weight: 500;
     font-style: normal;
     text-decoration: none;
+    border: 0.1rem solid #4c7004;
    }
    .home-contact-icons li{
     display: none; 
@@ -97,7 +99,7 @@ footer{
   font-size: 1.2rem;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
   background-color:#6B8E23;
   padding-left: 2rem;
@@ -107,7 +109,7 @@ footer{
 /*about me page content */
 .about-me-container{
   margin-top: 8rem; 
-  background: linear-gradient(#c4d2a9, #6B8E23);
+  background: linear-gradient(#c4d2a9, #a0c852);
   padding-bottom: 2rem;
 }
 ul.skills {

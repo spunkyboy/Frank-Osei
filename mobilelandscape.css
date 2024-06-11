@@ -26,6 +26,7 @@
     color:#131b02;
     padding: 0 0.5rem;
     font-size: 1.2rem;
+    font-weight: 300;
   }
   .home-contact-text{
     right: 0rem;
@@ -62,20 +63,21 @@
    }
    .home-me-text-container p {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-bottom: 2rem;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
     padding-left: 1rem;
     padding-right: 1rem;
+    line-height: 2rem;
     color:#131b02;
    }
    .home-content-flex {
     display: flex;
     justify-content: space-between;
     margin-top: 6rem;
-    background: linear-gradient(#c4d2a9, #6B8E23);
+    background: linear-gradient(#c4d2a9, #a0c852);
    }
    .download{
     background-color:rgb(255, 255, 255);
@@ -86,6 +88,7 @@
     font-weight: 500;
     font-style: normal;
     text-decoration: none;
+    border: 0.1rem solid #4c7004;
    }
   .skills {
     margin-top: 1rem;
@@ -108,7 +111,7 @@ ul.skills li {
   margin: 2rem 1rem;
 }
 .fa-brands{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 .skills .category {
   color: black;
@@ -122,9 +125,9 @@ ul.skills li {
 }
 footer ul li{
   display: inline-block;
-  margin: 1rem 1rem;
+  margin: 1rem 1.5rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: rgb(250, 250, 250);
   font-size: 1rem;
 }
@@ -136,7 +139,7 @@ footer{
   font-size: 1.2rem;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
   background-color:#6B8E23;
   padding-left: 2rem;
@@ -147,7 +150,7 @@ footer{
 */
 .about-me-container{
   margin-top: 7rem;
-  background: linear-gradient(#c4d2a9, #6B8E23);
+  background: linear-gradient(#c4d2a9, #a0c852);
   padding-bottom: 2rem;
 }
 ul.skills {
