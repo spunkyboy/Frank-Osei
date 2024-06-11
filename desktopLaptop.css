@@ -13,6 +13,10 @@
     top: 0;
     background-color:rgb(255, 255, 255);
   }
+  .navlinks a:hover{
+    border-left: 0.10rem solid #131b02;;
+    padding-left: 0.5rem;
+  }
   .wrapper{
     width: 1000px;
     margin-left: auto;
@@ -32,6 +36,7 @@
     padding: 0 0.5rem;
     font-family: "Poppins", sans-serif;
     font-size: 1.2rem;
+    border-left: 0.10rem solid #131b022a;
   }
    .home-me-text-container h1 {
     text-align: center;

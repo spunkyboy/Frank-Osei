@@ -25,6 +25,9 @@ html {
     padding: 0 0.5rem;
     font-size: 1.2rem;
   }
+  .navlinks a:hover{
+    border-left: 0.3rem solid black;
+  }
  .download{
   background-color:rgb(255, 255, 255);;
   color:#131b02;

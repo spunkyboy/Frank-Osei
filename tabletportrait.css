@@ -20,11 +20,16 @@
     font-weight: 600;
     font-size: 1.5rem;
   }
+  .navlinks a:hover{
+    border-left: 0.10rem solid #131b02;;
+    padding-left: 0.5rem;
+  }
   .navlinks a{
     text-decoration: none;
     color:#131b02;
     padding: 0 0.5rem;
     font-size: 1.2rem;
+    border-left: 0.10rem solid #131b022a;
   }
   .home-me-text-container {
     margin-top: auto;
