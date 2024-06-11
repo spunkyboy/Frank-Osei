@@ -8,7 +8,7 @@ html {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    height: 8rem;
+    height: 9rem;
     background-color:rgb(255, 255, 255);
     position: fixed;
   }
@@ -138,12 +138,12 @@ footer{
 .home-contact-text{
   right: 0rem;
   position: absolute;
-  top: 5rem;
+  top: 6rem;
   position: fixed;
 }
 .home-contact-icons li{
   display: inline-block;
-  padding: 0.3rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   font-size: 1rem;
 }
 .home-contact-icons li a {
