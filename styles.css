@@ -24,9 +24,11 @@ html {
     color:#131b02;
     padding: 0 0.5rem;
     font-size: 1.2rem;
+    border-left: 0.10rem solid #131b022a;
   }
   .navlinks a:hover{
-    border-left: 0.3rem solid black;
+    border-left: 0.10rem solid #131b02;;
+    padding-left: 0.5rem;
   }
  .download{
   background-color:rgb(255, 255, 255);;
