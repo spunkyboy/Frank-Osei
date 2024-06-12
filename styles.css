@@ -1,3 +1,4 @@
+@import url("mobilelandscape.css");
 @media only screen and (max-width: 480px) {
 html {
   font-size: 16px;
@@ -18,23 +19,27 @@ html {
     text-decoration: none;
     font-weight: 600;
     font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
   }
   .navlinks a{
     text-decoration: none;
     color:#131b02;
-    padding: 0 0.5rem;
-    font-size: 1.2rem;
+    padding: 0 0.4rem;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
   }
  .download{
   background-color:rgb(255, 255, 255);;
   color:#131b02;
-  padding: 0.5rem;
+  padding: 0.6rem;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   text-decoration: none;
   border: 0.1rem solid #4c7004;
+  text-transform: uppercase;
  }
  a {
   color: #333131;
@@ -74,7 +79,7 @@ figure figcaption{
   margin-left: auto;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   color:#131b02;
  }
@@ -83,19 +88,16 @@ figure figcaption{
   padding-bottom: 2rem;
  }
 ul.skills {
-  padding: 20px;
+  padding: 5px;
   text-align: center;
-}
-.skills li {
-  display: inline-block;
 }
 ul.skills li {
   display: inline-block;
   list-style: none;
-  margin: 2rem 1rem;
+  margin: 2rem 3rem;
 }
 .fa-brands{
-  font-size: 1.7rem;
+  font-size: 5rem;
 }
 .skills .category {
   color: black;
@@ -109,16 +111,20 @@ ul.skills li {
 }
 .skills .icon-name {
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
+  display: none;
 }
 footer ul li{
   display: inline-block;
-  margin: 1rem 1rem;
+  margin: 1rem 0.5rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: rgb(250, 250, 250);
-  font-size: 1rem;
+  font-size: 1.5rem;
+}
+footer ul{
+  padding: 3rem 0rem;
 }
 footer{
   text-align: center;
@@ -126,13 +132,13 @@ footer{
 }
 .sub-head-skills{
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
-  background-color:#6B8E23;
+  background-color:#6a8e23f9;
   color: rgb(229, 237, 244);
   padding: 1rem 0.5rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .home-contact-text{
@@ -146,12 +152,21 @@ footer{
   padding: 0.5rem 0.5rem;
   font-size: 1rem;
 }
+#message{
+font-size: 1.7rem;
+}
+#linkedin{
+  font-size: 1.7rem;
+}
+#facebook{
+  font-size: 1.7rem;
+}
 .home-contact-icons li a {
   color: #4a690a;
 }
 /* about me page Heading and text */
 .about-me-container{
-  background: linear-gradient(#c4d2a9, #a0c852);
+  background-color: #c1d29e;
   padding-bottom: 2rem;
 }
 .about-me-container p {
@@ -172,9 +187,10 @@ footer{
   font-size: 1.5rem;
   padding: 1rem 1rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   color:#131b02;
+  text-transform: uppercase;
  }
  /* contact info mobile page  */
  ul.contact-icons li {
@@ -193,9 +209,6 @@ ul.contact-icons li a{
 }
 ul.contact-icons a {
   color: #2F4F4F;
-}
-#message #facebook #linkedin {
-  font-size: 1.5rem;
 }
 .main-contact-text h1 {
   display: block;
