@@ -29,28 +29,24 @@
         </nav>
       </div>
   </header>  
-  <img src="./images_folder/contact-pic.jpg"  class="contact-banner-image" alt="contact-image"/>
+ 
+<div class="contact-container">
   <main class="main-contact-text">
-    <h1>Contact</h1>
-    <p>
+    <h1>Get in touch</h1>
+    <!-- <p>
         Have an interesting project? I would love to hear about it! 
-    </p>
-    <ul class="contact-icons">
-        <li>
-          <a href="https://www.facebook.com/profile.php?id=100005378898543"><span class="category"><i class="fa-brands fa-facebook" id="facebook"></i></span>
-          <span class="icon-name">Facebook</span></a>
-        </li>
-        <li>
-          <a href="mailto:frankoseikwabena@hotmail.com"><span class="category"><i class="fa-regular fa-message" id="message"></i></span>
-          <span class="icon-name">Messages</span></a>
-        </li>
-        <li>
-          <a href="http://linkedin.com/in/frank-osei-619373249"><span class="category"><i class="fa-brands fa-linkedin" id="linkedin"></i></span>
-          <span class="icon-name">LinkedIn</span></a>
-        </li>
-      </ul>
+    </p> -->
+ <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+    <input type="hidden" name="access_key" value="7a073772-011f-4fe5-acb0-c3f11b742aba">
+    <input type="text" name="name" placeholder="Name" class="contact-input">
+    <input type="email" name="email" placeholder="example@hotmail.com" class="contact-input" required>
+    <textarea name="message" placeholder="Your Comments" class="contact-input" required></textarea>
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    <button type="submit" class="contact-submit">Submit Form</button>
+</form>
     </main>
     <footer>
+      <div>
       <ul class="footer-list-center">
         <li>
          UI/UX DESIGN
@@ -65,7 +61,22 @@
           WEB OPTIMIZATION
          </li>
       </ul>
+    </div>
+      <div class="home-contact-text">
+        <ul class="home-contact-icons">
+           <li>
+              <a href="https://www.facebook.com/profile.php?id=100005378898543"><span class="category"><i class="fa-brands fa-facebook" id="facebook"></i></span></a>
+           </li>
+            <li>
+             <a href="mailto:frankoseikwabena@hotmail.com"><span class="category"><i class="fa-regular fa-message" id="message"></i></span></a>
+            </li>
+           <li>
+             <a href="http://linkedin.com/in/frank-osei-619373249"><span class="category"><i class="fa-brands fa-linkedin" id="linkedin"></i></span></a>
+           </li>
+         </ul>
+       </div>
     </footer>
-  </div>
+    </div>
+    </div>
   </body>
 </html>
