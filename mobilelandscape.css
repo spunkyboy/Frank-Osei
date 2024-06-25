@@ -219,7 +219,9 @@ ul.skills li {
   font-size: 1rem;
   font-weight: 500;
   color: #2d3e0d;
+  background-color:rgb(229, 237, 244) !important;
  }
+
 
 .contact-banner-image{
   display: none;
