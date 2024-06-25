@@ -210,7 +210,7 @@ ul.skills li {
   width: 15rem;
  }
  .contact-input:focus{
-  border: 0.2rem solid #2D4909;
+  background-color: #c9f09aa0;
  }
  .contact-left textarea{
   height: 6rem;
