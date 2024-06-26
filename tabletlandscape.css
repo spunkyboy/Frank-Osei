@@ -1,8 +1,9 @@
 @import url("tabletportrait.css");
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
-  html {
+  html, body{
     font-size: 16px; 
     color:#2D4909;
+    height: 100%;
   }
   .navbar {
     width: 100%;
@@ -133,7 +134,7 @@ footer{
   margin-top: 7rem;
   /* background: linear-gradient(#c4d2a9, #a0c852); */
   background-color: #2D4909;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 .icon-name{
   display: block;

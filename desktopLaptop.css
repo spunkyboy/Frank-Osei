@@ -1,8 +1,9 @@
 @media only screen and (min-width: 1281px) {
-html {
-  font-size: 16px; 
-  color:#2D4909;
-}
+  html, body{
+    font-size: 16px; 
+    color:#2D4909;
+    height: 100%;
+  }
 .navbar {
   width: 1000px;
   margin: auto;
