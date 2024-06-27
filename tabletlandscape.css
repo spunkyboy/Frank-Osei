@@ -176,7 +176,7 @@ ul.skills li {
 }
 .frank-image-home {
   background-image: url("./images_folder/background.webp");
-  width: 80%;
+  width: 100%;
   height: 500px;
   object-fit: cover;
   object-position: top;
