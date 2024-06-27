@@ -175,7 +175,8 @@ ul.skills li {
   display: none;
 }
 .frank-image-home {
-  width: 100%;
+  background-image: url("./images_folder/background.webp");
+  width: 80%;
   height: 500px;
   object-fit: cover;
   object-position: top;
@@ -183,6 +184,7 @@ ul.skills li {
   float: left;
 }
 .frank-image-about {
+  background-image: url("./images_folder/background.webp");
   width: 50%;
   height: 500px;
   object-fit: cover;
