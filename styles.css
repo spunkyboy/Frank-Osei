@@ -5,11 +5,12 @@ html {
   color:#2D4909;
   }
   body{
-    min-width: 390px;
-    a{
-      text-decoration: none;
-     
-    }
+    min-width: 350px;
+  
+  }
+  a{
+    text-decoration: none;
+   
   }
  .wrapper{
   max-width: 1200px;
@@ -210,7 +211,7 @@ figure figcaption{
   justify-self: center;
   font-size: 2rem;
   font-weight: 700;
-  border: 0.2rem solid #2D4909;
+  /* border: 0.2rem solid #2D4909; */
   padding: 3rem;
  }
  .contact-left{
