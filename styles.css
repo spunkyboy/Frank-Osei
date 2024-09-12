@@ -20,7 +20,7 @@ html {
     max-width: 1200px;
     margin-inline: auto;
     width: 100%;
-    margin-top: 0rem;
+    top: 0rem;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +30,7 @@ html {
   }
   .header-branding a{
     color:  #2D4909;
-   padding-left: 1rem;
+    padding-left: 1rem;
     text-decoration: none;
     font-weight: 800;
     font-size: 1.3rem;
@@ -50,12 +50,11 @@ html {
 }
  .home_image,
  .frank-image-home {
-  background-image: url("./images_folder/background.webp");
   width: 100%;
-  height: 350px;
+  height: 100vh;
   object-fit: cover;
   object-position: top;
- 
+  align-self: center;
 }
 
 .home-me-text-container{
@@ -63,7 +62,6 @@ html {
   gap: 1rem;
   color: white;
   align-self: center;
-  margin-top: 4rem;
   padding-right: 1rem;
 }
 
@@ -75,8 +73,7 @@ html {
   line-height: 1.5;
   align-self: center;
   justify-self: center;
-  padding-top: 1rem;
-  
+  margin-top:5rem;
  }
  .home-me-text-container h1{
   font-size: 1.7rem;
@@ -110,6 +107,9 @@ html {
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
  }
+ .skills-items li{
+  margin: 3rem 0rem;
+ }
 
 .icon-name{
   display: block;
@@ -135,8 +135,8 @@ html {
   color: white;
   padding: 1rem;
   text-transform: uppercase;
-  font-size: 0.8rem;
-
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 .home-contact-icons li{
   padding: 1rem;
@@ -153,6 +153,7 @@ html {
   color: #2D4909;
   text-transform: uppercase;
 }
+
 #message{
 font-size: 1.7rem;
 }
@@ -169,8 +170,11 @@ font-size: 1.7rem;
 .about-me-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  background-color: #2D4909;
+  gap: 0rem;
+ 
+}
+p:nth-last-child(2){
+  margin: 1rem 0rem;
 }
 .about_text{
   grid-column: 1;
@@ -178,17 +182,25 @@ font-size: 1.7rem;
   color: white;
   align-self: center;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 250;
-  padding-left: 1rem;
+  padding: 1rem;
+  background-color: #2D4909;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
 }
-.frank-image-about {
+.frank-image-about{
   width: 100%;
-  height: 22rem;
+  height: 20rem;
   object-fit: cover;
   object-position: top;
-  background-image: url("./images_folder/background.webp");
+}
+.about_image,
+.frank-image-about{
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  align-self: center;
 }
 .about_text
 >h3{
@@ -196,7 +208,7 @@ font-size: 1.7rem;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 figure figcaption{
   display: none;
@@ -206,14 +218,14 @@ figure figcaption{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  box-shadow: 5px 10px 8px 10px #888888;
  }
  .contact-container{
   align-self: center;
   justify-self: center;
   font-size: 2rem;
   font-weight: 700;
-  /* border: 0.2rem solid #2D4909; */
   padding: 3rem;
  }
  .contact-left{
@@ -224,7 +236,6 @@ figure figcaption{
   background-color:#2D4909;
   padding: 3rem 0rem;
   border-radius: 1rem;
-  margin: 2rem 0rem;
  }
  .contact-input{
   border-radius: 0.5rem;
@@ -278,30 +289,46 @@ figure figcaption{
 @media screen and (max-width: 652px) {
   .about-me-container{
     display: block;
-    background-color: #2D4909;
+   
   }
   .about_text{
-   padding: 1rem;
    line-height: 1.5;
+   font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    padding: 1rem;
+    background-color: #2D4909;
+    border-bottom-right-radius: 0rem;
+    border-top-right-radius: 0rem;
   }
   .frank-image-about {
     width: 100%;
-    height: 20rem;
+    height: 15rem;
     object-fit: cover;
     object-position: top;
     background-image: url("./images_folder/background.webp");
   }
+  .about-me-container p{
+    font-size: 1.2rem;
+  }
+  p:nth-last-child(2){
+    margin: 1rem 0rem;
+  }
+  .about_image,
+.frank-image-about{
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 0rem;
+  align-self: center;
+}
 }
 /*  mobile device  */
 @media screen and (max-width: 665px) {
   .home-content-grid{
-   display: block;
+    display: block;
     background-color: #2D4909;
     line-height: 1.5;
     align-self: center;
     justify-self: center;
-    padding-top: 1rem;
-    
    }
    .home-me-text-container{
     display: grid;
@@ -311,16 +338,23 @@ figure figcaption{
     margin-top: 2rem;
     padding-left: 1rem;
   }
+  .home-me-text-container p{
+   font-size: 1.2rem;
+
+}
 }
 
 /*  mobile device for contact */
 @media screen and (max-width: 620px) {
-
 .forms_grid{
-  display: block;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 0rem;
  }
  .contact-container,
  h4{
+  padding: 0rem;
+  align-self: end;
   margin-top: 4rem;
   text-align: center;
  }
