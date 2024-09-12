@@ -2,7 +2,7 @@
 This is contain brief infomation about what im currently into Fronted Engineer,
 programme that i have learnt and developing more project with it.
 I developed this website with HTML & CSS.
-it has 3 page, which is home , about me and contact.
+it has single page, which is home , about me and contact.
 The main reason for this website is to showcase my skills and what am good at Engineering.
 i choosed the color scheme #2D4909 and #ffffff.
 Users can navigate through all pages and send information on the contact form.
