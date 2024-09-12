@@ -1,29 +1,40 @@
-@import url("mobilelandscape.css");
-@media only screen and (max-width: 480px) {
+/* @import url("mobilelandscape.css"); */
+/* @media only screen and (max-width: 480px) { */
 html {
   font-size: 16px;
   color:#2D4909;
   }
+  body{
+    min-width: 390px;
+    a{
+      text-decoration: none;
+     
+    }
+  }
+ .wrapper{
+  max-width: 1200px;
+  margin-inline: auto;
+ }
   .navbar {
+    max-width: 1200px;
+    margin-inline: auto;
     width: 100%;
-    margin: auto;
+    margin-top: 0rem;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    height: 9rem;
     background-color:#FFFFFF;
     position: fixed;
+    height: 4rem;
   }
   .header-branding a{
-    color: #FFFFFF;
-    padding: 0.7rem;
+    color:  #2D4909;
+   padding-left: 1rem;
     text-decoration: none;
     font-weight: 800;
     font-size: 1.3rem;
     font-family: "Poppins", sans-serif;
-    background-color: #2D4909;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    /* background-color: #2D4909; */
   }
   .navlinks a{
     text-decoration: none;
@@ -33,67 +44,70 @@ html {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
   }
- .download{
-  background-color:#FFFFFF;
-  color:#2D4909;
-  padding: 1rem;
-  font-size: 1.2rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  text-decoration: none;
-  text-transform: uppercase;
- }
+.navlinks{
+  padding-right: 1rem;
+}
+ .home_image,
  .frank-image-home {
   background-image: url("./images_folder/background.webp");
   width: 100%;
   height: 350px;
   object-fit: cover;
   object-position: top;
-  margin-top: 5rem;
+ 
 }
-.frank-image-about {
-  width: 100%;
-  height: 350px;
-  object-fit: cover;
-  object-position: top;
-  margin-top: 5rem;
-  background-image: url("./images_folder/background.webp");
+
+.home-me-text-container{
+  display: grid;
+  gap: 1rem;
+  color: white;
+  align-self: center;
+  margin-top: 4rem;
+  padding-right: 1rem;
 }
-figure figcaption{
-  display: none;
-}
-.home-me-text-container p{
-  text-align: center;
-  line-height: 2rem;
-  font-size: 1.2rem;
-  padding: 0rem 1rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  margin-bottom: 5rem;
-  color: #FFFFFF;
+
+ .home-content-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  background-color: #2D4909;
+  line-height: 1.5;
+  align-self: center;
+  justify-self: center;
+  padding-top: 1rem;
+  
  }
  .home-me-text-container h1{
   font-size: 1.7rem;
-  padding-bottom: 2rem;
-  margin-top: 3rem;
-  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+ }
+ .home-me-text-container p{
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+ }
+ .download{
+  background-color:#FFFFFF;
+  font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  color:#FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem;
+  text-align: center;
  }
- .home-content-flex{
-  background-color: #2D4909;/* Browser do not support gradiants*/
-  /* background: linear-gradient(0deg,#2D4909,#FFFFFF); */
-  padding-bottom: 2rem;
+ .download, 
+ a{
+  color:#2D4909;
  }
- .skills li{
-  display: inline-block;
-  margin: auto;
-  padding: 3rem;
+ .skills-items{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
  }
+
 .icon-name{
   display: block;
   text-align: center;
@@ -104,40 +118,31 @@ figure figcaption{
   padding: 2rem;
  }
 .fa-brands{
-  font-size: 4rem;
+  font-size: 3rem;
 }
-footer ul li{
-  display:block;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  font-size: 1rem;
-}
-footer{
+.foot_items{
+  display: flex;
   background-color: #2D4909;
-}
-footer div{
-  display: inline-flex;
-}
-.footer-list-center{
-  padding: 2rem 0rem;
+  padding: 2rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
 }
 .footer-list-center li{
+  color: white;
   padding: 1rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+
 }
 .home-contact-icons li{
   padding: 1rem;
 }
-.home-contact-icons{
-  padding: 2rem 0rem;
-}
-.home-contact-text{
-  float: right;
-}
+
 .sub-head-skills{
   display: block;
   font-size: 2rem;
-  padding-top: 2rem;
+  margin-top: 4rem;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -159,35 +164,55 @@ font-size: 1.7rem;
 }
 /* about me page Heading and text */
 .about-me-container{
-  /* background: linear-gradient(0deg,#2D4909,#FFFFFF); */
-  background-color: #2D4909;/* Browser do not support gradiants*/
-  padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  background-color: #2D4909;
 }
-.about-me-container p {
-  text-align: center;
-  padding: 0rem 1rem;
-  font-size: 1.2rem;
-  line-height: 2rem;
+.about_text{
+  grid-column: 1;
+  grid-row: 1;
+  color: white;
+  align-self: center;
+  line-height: 1.5;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color:#FFFFFF;
-  margin-bottom: 1.2rem;
- }
- .about-me-container p:last-child {
-  margin-bottom: 1.5rem;
- }
- .about-me-container h1 {
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 1.5rem 1rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color:#FFFFFF;
+  font-weight: 250;
+  padding-left: 1rem;
+}
+.frank-image-about {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+  object-position: top;
+  background-image: url("./images_folder/background.webp");
+}
+.about_text
+>h3{
+  font-size: 1.7rem;
   text-transform: uppercase;
- }
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+figure figcaption{
+  display: none;
+}
  /* contact info mobile page  */
+ .forms_grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+ }
+ .contact-container{
+  align-self: center;
+  justify-self: center;
+  font-size: 2rem;
+  font-weight: 700;
+  border: 0.2rem solid #2D4909;
+  padding: 3rem;
+ }
  .contact-left{
   display: flex;
   flex-direction: column;
@@ -196,7 +221,7 @@ font-size: 1.7rem;
   background-color:#2D4909;
   padding: 3rem 0rem;
   border-radius: 1rem;
-  margin: 5rem 0rem;
+  margin: 2rem 0rem;
  }
  .contact-input{
   border-radius: 0.5rem;
@@ -209,9 +234,7 @@ font-size: 1.7rem;
  .contact-input:focus{
   background-color: #c9f09aa0;
  }
- .contact-left textarea{
-  height: 6rem;
- }
+
  .contact-submit{
   border: none;
   outline: none;
@@ -227,23 +250,75 @@ font-size: 1.7rem;
 .contact-banner-image{
   display: none;
 }
-.main-contact-text h1 {
+
+@media screen and (max-width: 639px) {
+.skills-items{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.icon-name{
   display: block;
-  font-size: 1.8rem; 
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  margin-bottom: 2rem;
-  margin-top: 7rem;
-  color: #2D4909;
-}
-.main-contact-text {
   text-align: center;
-  padding: 2rem 1rem;
-  line-height: 1.6rem;
-}
-.main-contact-text p{
-  font-size: 1.2rem; 
   font-family: "Poppins", sans-serif;
-  line-height: 2rem;
+ }
+ .applications{
+  text-align: center;
+  padding: 2rem 0rem;
+ }
+ .skills-items li{
+  margin: 2rem 0rem;
+ }
+.fa-brands{
+  font-size: 3rem;
 }
+}
+@media screen and (max-width: 652px) {
+  .about-me-container{
+    display: block;
+    background-color: #2D4909;
+  }
+  .about_text{
+   padding: 1rem;
+   line-height: 1.5;
+  }
+  .frank-image-about {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: top;
+    background-image: url("./images_folder/background.webp");
+  }
+}
+/*  mobile device  */
+@media screen and (max-width: 632px) {
+  .home-content-grid{
+   display: block;
+    background-color: #2D4909;
+    line-height: 1.5;
+    align-self: center;
+    justify-self: center;
+    padding-top: 1rem;
+    
+   }
+   .home-me-text-container{
+    display: grid;
+    gap: 1rem;
+    color: white;
+    align-self: center;
+    margin-top: 2rem;
+    padding-left: 1rem;
+  }
+}
+
+/*  mobile device for contact */
+@media screen and (max-width: 620px) {
+
+.forms_grid{
+  display: block;
+ }
+ .contact-container,
+ h4{
+  margin-top: 4rem;
+  text-align: center;
+ }
 }
