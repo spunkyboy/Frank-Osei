@@ -4,7 +4,7 @@ html {
   font-size: 16px;
   color:#2D4909;
   scroll-behavior:smooth;
-  
+
   }
   body{
     min-width: 350px;
@@ -14,45 +14,13 @@ html {
     text-decoration: none;
    
   }
+
  .wrapper{
   max-width: 1200px;
   margin-inline: auto;
  }
-  .navbar {
-    max-width: 1200px;
-    margin-inline: auto;
-    width: 100%;
-    top: 0rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color:#FFFFFF;
-    position: fixed;
-    height: 4rem;
-  }
-  .header-branding a{
-    color:  #2D4909;
-    padding-left: 1rem;
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 1.3rem;
-    font-family: "Poppins", sans-serif;
-    /* background-color: #2D4909; */
-  }
-  .navlinks a{
-    text-decoration: none;
-    color:#2D4909;
-    padding: 0 0.4rem;
-    font-size: 1rem;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-  }
-.navlinks{
-  padding-right: 1rem;
-}
-a:nth-child(4){
-  display: none;
-}
+
+
  .home_image,
  .frank-image-home {
   width: 100%;
@@ -63,9 +31,10 @@ a:nth-child(4){
 }
 
 .home-me-text-container{
+  top:20rem;
   display: grid;
   gap: 1rem;
-  color: white;
+  color: #FFFFFF;
   align-self: center;
   padding-right: 1rem;
 }
@@ -78,7 +47,7 @@ a:nth-child(4){
   line-height: 1.5;
   align-self: center;
   justify-self: center;
-  margin-top:5rem;
+  margin-top:  2.8rem;
   scroll-margin: 80px;
  }
  .home-me-text-container h1{
@@ -133,21 +102,21 @@ a:nth-child(4){
 }
 .foot_items{
   display: flex;
-  background-color: #2D4909;
+  background-color: rgb(9, 8, 8);
   padding: 2rem 1rem;
   justify-content: space-between;
   align-items: center;
   margin-top: 3rem;
 }
 .footer-list-center li{
-  color: white;
+  color: #FFFFFF;
   padding: 1rem;
   text-transform: uppercase;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
 }
 .home-contact-icons li{
-  padding: 1rem;
+  padding:1.5rem;
 }
 
 .sub-head-skills{
@@ -187,7 +156,7 @@ p:nth-last-child(2){
 .about_text{
   grid-column: 1;
   grid-row: 1;
-  color: white;
+  color: #FFFFFF;
   align-self: center;
   line-height: 1.5;
   font-size: 1.2rem;
@@ -299,7 +268,7 @@ figure figcaption{
   .about-me-container{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 9.8rem auto;
+    grid-template-rows: auto auto;
    
   }
   .about_text{
@@ -314,11 +283,12 @@ figure figcaption{
   }
   .frank-image-about {
     width: 100%;
-    height: 10rem;
+    height: 8rem;
     border-radius: 100%;
     max-width: 10rem;
     object-fit: cover;
     object-position: top;
+    margin-bottom: -1rem;
   }
   .about-me-container p{
     font-size: 1.2rem;
@@ -330,8 +300,9 @@ figure figcaption{
 .frank-image-about{
   border-bottom-right-radius: 0rem;
   border-bottom-left-radius: 0rem;
-  text-align: right;
-  z-index: 10;
+  border-top-left-radius:2rem ;
+  border-top-right-radius: 2rem;
+  justify-self: end;
 }
 }
 /*  mobile device  */
@@ -354,14 +325,6 @@ figure figcaption{
   .home-me-text-container p{
    font-size: 1.2rem;
 
-}
-.navlinks
-*{
- display: none;
-}
-a:nth-child(4){
-  display: contents;
-  font-size: 2rem;
 }
 }
 
