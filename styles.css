@@ -8,6 +8,7 @@ html {
   }
   body{
     min-width: 350px;
+   
   
   }
   a{
@@ -20,16 +21,26 @@ html {
   margin-inline: auto;
  }
 
-
- .home_image,
- .frank-image-home {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  object-position: top;
-  align-self: center;
+.home_bg_image{
+  background-image: url("/images_folder/software2.jpg");
+  min-height: 30rem;
+  text-align: center;
+  align-content: center;
+ 
 }
-
+.home_bg_image p{
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+ 
+}
+.home_bg_image p span{
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
 .home-me-text-container{
   top:20rem;
   display: grid;
@@ -43,15 +54,16 @@ html {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  /* top: -8rem; */
   background-color: #2D4909;
   line-height: 1.5;
   align-self: center;
   justify-self: center;
-  margin-top:  2.8rem;
-  scroll-margin: 80px;
+  margin-top:  10rem;
+  /* scroll-margin: 80px; */
  }
  .home-me-text-container h1{
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-align: center;
@@ -70,14 +82,13 @@ html {
   font-style: normal;
   text-decoration: none;
   text-transform: uppercase;
-  text-align: center;
   padding: 1rem;
-  margin: 0rem 4rem;
  }
 
  .download, 
  a{
   color:#2D4909;
+  margin: auto;
  }
  .skills-items{
   display: grid;
@@ -87,13 +98,7 @@ html {
  .skills-items li{
   margin: 3rem 0rem;
  }
-
-.icon-name{
-  display: block;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
- }
- .applications{
+.applications{
   text-align: center;
   padding: 2rem;
  }
@@ -116,7 +121,9 @@ html {
   font-family: "Poppins", sans-serif;
 }
 .home-contact-icons li{
-  padding:1.5rem;
+  text-align: center;
+  padding:0.8rem;
+  margin: 1rem 0rem;
 }
 
 .sub-head-skills{
@@ -242,7 +249,16 @@ figure figcaption{
 .contact-banner-image{
   display: none;
 }
-
+.foot_nav{
+  a{
+    display: block;
+    color: #ffffff;
+    margin: 1.5rem 1rem;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    text-align: right;
+  }
+}
 @media screen and (max-width: 639px) {
 .skills-items{
   display: grid;
@@ -280,6 +296,7 @@ figure figcaption{
     background-color: #2D4909;
     border-bottom-right-radius: 0rem;
     border-top-right-radius: 0rem;
+    text-align: center;
   }
   .frank-image-about {
     width: 100%;
@@ -341,4 +358,22 @@ figure figcaption{
   padding: 1.2rem;
   text-align: center;
  }
+ .foot_items{
+  display: grid;
+  justify-content: center;
+   text-align: center;
+ }
+ .foot_nav{
+  a{
+    display: block;
+    color: #ffffff;
+    margin: 1.2rem 0rem;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+ }
+.home-contact-icons  li a{
+ margin: auto;
+}
 }
