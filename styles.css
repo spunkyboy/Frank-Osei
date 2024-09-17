@@ -340,7 +340,7 @@ figure figcaption{
 }
 .home_bg_image{
   background-image: url("./images_folder/software2.jpg");
-  min-height: 30rem;
+  min-height: 100vh;
   align-content: center;
 }
 .home_bg_image p{
