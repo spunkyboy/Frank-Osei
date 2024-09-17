@@ -54,13 +54,12 @@ html {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  /* top: -8rem; */
   background-color: #2D4909;
   line-height: 1.5;
   align-self: center;
   justify-self: center;
   margin-top:  10rem;
-  /* scroll-margin: 80px; */
+
  }
  .home-me-text-container h1{
   font-size: 1.3rem;
@@ -363,15 +362,13 @@ figure figcaption{
   justify-content: center;
    text-align: center;
  }
- .foot_nav{
-  a{
+ .foot_nav a{
     display: block;
     color: #ffffff;
     margin: 1.2rem 0rem;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     text-align: center;
-  }
  }
 .home-contact-icons  li a{
  margin: auto;
