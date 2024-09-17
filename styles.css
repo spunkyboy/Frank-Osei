@@ -23,16 +23,8 @@ html{
   gap: 1rem;
   color: #FFFFFF;
   align-self: center;
-  padding-right: 1rem;
-}
-.home_bg_image {
-  color: #FFFFFF;
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-size: 3rem;
-  text-align: center;
-  align-self: center;
-
+  padding: 2rem 1rem;
+  background-color: #2d4909;
 }
  .home-content-grid{
   display:grid;
@@ -44,6 +36,16 @@ html{
   justify-self: center;
   margin-top:  10rem;
   padding: 1rem 0rem;
+  background-image: url('./images_folder/software2.jpg');
+
+ }
+ .home_bg_image {
+  text-align: center;
+  align-self: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #FFFFFF;
  }
  .home-me-text-container h1{
   font-size: 1.3rem;
@@ -311,9 +313,9 @@ figure figcaption{
     grid-template-columns: auto;
     grid-template-rows: repeat(2, 1fr);
     line-height: 1.5;
-    align-self: center;
-    justify-self: center;
     padding: 1rem 0rem;
+    background-image: url('./images_folder/software2.jpg');
+    width: 100%;
    }
    .home-me-text-container{
     display: grid;
@@ -325,7 +327,15 @@ figure figcaption{
   }
   .home-me-text-container p{
    font-size: 1.2rem;
-
+}
+.home_bg_image {
+ text-align: center;
+ align-self: center;
+ text-transform: uppercase;
+ font-family: "Poppins", sans-serif;
+ font-size: 2rem;
+ font-weight: 700;
+ color: #FFFFFF;
 }
 
 }
