@@ -1,5 +1,4 @@
-/* @import url("mobilelandscape.css"); */
-/* @media only screen and (max-width: 480px) { */
+
 html {
   font-size: 16px;
   color:#2D4909;
@@ -248,15 +247,15 @@ figure figcaption{
 .contact-banner-image{
   display: none;
 }
-.foot_nav{
-  a{
+.foot_nav a{
+  
     display: block;
     color: #ffffff;
     margin: 1.5rem 1rem;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     text-align: right;
-  }
+  
 }
 @media screen and (max-width: 639px) {
 .skills-items{
@@ -341,6 +340,26 @@ figure figcaption{
   .home-me-text-container p{
    font-size: 1.2rem;
 
+}
+.home_bg_image{
+  background-image: url("./images_folder/software2.jpg");
+  min-height: 30rem;
+  text-align: center;
+  align-content: center;
+ 
+}
+.home_bg_image p{
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+ 
+}
+.home_bg_image p span{
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 }
 
