@@ -47,7 +47,7 @@ html{
 }
 
  .home-content-grid{
-  display: grid;
+  display:grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   background-color: #2D4909;
@@ -320,11 +320,11 @@ figure figcaption{
 /*  mobile device  */
 @media screen and (max-width: 665px) {
   .home-content-grid{
-    display: block;
-    background-color: #2D4909;
+    display: grid;
+    grid-template-columns: auto;
     line-height: 1.5;
-    /* align-self: center;
-    justify-self: center; */
+    align-self: center;
+    justify-self: center;
    }
    .home-me-text-container{
     display: grid;
