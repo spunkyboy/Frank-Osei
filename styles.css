@@ -1,14 +1,11 @@
 
-html {
+html{
   font-size: 16px;
   color:#2D4909;
   scroll-behavior:smooth;
-
   }
   body{
     min-width: 350px;
-   
-  
   }
   a{
     text-decoration: none;
@@ -383,8 +380,7 @@ figure figcaption{
  }
  .foot_nav a{
     display: block;
-    /* color: #ffffff; */
-    color: red;
+    color: #ffffff;
     margin: 1.2rem 0rem;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
