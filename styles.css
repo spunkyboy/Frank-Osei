@@ -20,7 +20,6 @@ html{
 .home_bg_image{
   background-image: url("./images_folder/software2.jpg");
   min-height: 30rem;
-  text-align: center;
   align-content: center;
  
 }
@@ -30,7 +29,8 @@ html{
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   padding: 1rem;
- 
+  text-align: center;
+  color: red;
 }
 .home_bg_image p span{
   display: block;
@@ -323,8 +323,8 @@ figure figcaption{
     display: block;
     background-color: #2D4909;
     line-height: 1.5;
-    align-self: center;
-    justify-self: center;
+    /* align-self: center;
+    justify-self: center; */
    }
    .home-me-text-container{
     display: grid;
@@ -341,9 +341,7 @@ figure figcaption{
 .home_bg_image{
   background-image: url("./images_folder/software2.jpg");
   min-height: 30rem;
-  text-align: center;
   align-content: center;
- 
 }
 .home_bg_image p{
   color: #ffffff;
@@ -351,6 +349,7 @@ figure figcaption{
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   padding: 1rem;
+  text-align: center;
  
 }
 .home_bg_image p span{
