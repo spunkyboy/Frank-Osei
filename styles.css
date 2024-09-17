@@ -22,7 +22,7 @@ html {
  }
 
 .home_bg_image{
-  background-image: url("/images_folder/software2.jpg");
+  background-image: url("./images_folder/software2.jpg");
   min-height: 30rem;
   text-align: center;
   align-content: center;
