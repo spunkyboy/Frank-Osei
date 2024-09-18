@@ -2,10 +2,11 @@
 html{
   font-size: 16px;
   color:#2D4909;
-  scroll-behavior:smooth;
+  /* scroll-behavior:smooth; */
   }
   body{
     min-width: 350px;
+   
   }
   a{
     text-decoration: none;
@@ -15,6 +16,9 @@ html{
  .wrapper{
   max-width: 1200px;
   margin-inline: auto;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior:  smooth;
  }
 
 .home-me-text-container{
@@ -35,22 +39,29 @@ html{
   align-self: center;
   justify-self: center;
   margin-top:  10rem;
-  padding: 1rem 0rem;
   background-image: url('./images_folder/software2.jpg');
-
  }
+ .header_text p{
+  font-size: 1.5rem;
+}
+
+.home-content-grid span{
+  display: block;
+  font-size: 3rem;
+}
  .home_bg_image {
   text-align: center;
   align-self: center;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
   color: #FFFFFF;
  }
  .home-me-text-container h1{
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
  }
  .home-me-text-container p{
@@ -313,14 +324,13 @@ figure figcaption{
     grid-template-columns: auto;
     grid-template-rows: repeat(2, 1fr);
     line-height: 1.5;
-    padding: 1rem 0rem;
     background-image: url('./images_folder/software2.jpg');
     width: 100%;
    }
    .home-me-text-container{
     display: grid;
     gap: 1rem;
-    color: white;
+    color: #FFFFFF;
     align-self: center;
     margin-top: 2rem;
     padding-left: 1rem;
@@ -328,6 +338,11 @@ figure figcaption{
   .home-me-text-container p{
    font-size: 1.2rem;
 }
+.header_text p{
+  font-size: 1rem;
+  
+}
+
 .home_bg_image {
  text-align: center;
  align-self: center;
@@ -337,7 +352,10 @@ figure figcaption{
  font-weight: 700;
  color: #FFFFFF;
 }
-
+.home-content-grid span{
+  display: block;
+  font-size: 3rem;
+}
 }
 
 /*  mobile device for contact */
