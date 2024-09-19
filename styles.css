@@ -286,7 +286,7 @@ figure figcaption{
    
   }
   .about_text{
-    z-index: 10;
+    z-index: 2;
    grid-row: 2;
    line-height: 1.5;
    font-family: "Poppins", sans-serif;

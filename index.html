@@ -13,8 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5d07f027c2.js" crossorigin="anonymous"></script> 
-
- 
+  
       <style>
       
        .dropdown{
@@ -41,6 +40,7 @@
          font-family: "Poppins", sans-serif;
       }
       button {
+          /* display: none; */
           text-align: left;
           color: #2D4909;
           outline: none;
@@ -51,6 +51,7 @@
         }
         @media screen and (max-width: 724px) {
         .dropdown {
+          z-index: 10;
             position: relative;
             display: inline-block;
             position: fixed;
@@ -61,7 +62,7 @@
             background-color: white;
             min-width: 250px;
             /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-            z-index: 1;
+            z-index: 99;
         }
         .dropdown-content a {
             padding: 12px 16px;
@@ -81,6 +82,7 @@
             display: block;
         }
         button {
+          /* display: block; */
           color: #2D4909;
           outline: none;
           border: 0px;
@@ -104,9 +106,9 @@
        <header>
 
         <div class="dropdown">
-            <button onclick="toggleDropdown()" class="button_2">&#x2630;</button>
+            <button onclick="toggleDropdown()" id="button_2"></button>
             <div id="myDropdown" class="dropdown-content">
-                <a href="#top_id" onclick="selectHome('F.O - Sorftware Engineer')">Welcome</a>
+                <a href="#top_id" onclick="selectHome('frank osei')">Welcome</a>
                 <a href="#about_me_id" onclick="selectAbout('Read Me')">About Me</a>
                 <a href="#" onclick="myPortfolios()">Portfolios</a>
                 <a href="#contact_id" onclick="selectResponse('Contact Me')">Contact</a>
@@ -119,7 +121,7 @@
               <p>frank osei <span>Software <br>engineer</span></p>
             </div>
             <div class="home-me-text-container"  >
-              <h1>HEY!, I'M FRANK OSEI</h1>
+              <h1 id="home">HEY!, I'M FRANK OSEI</h1>
               <p>
                 A result-driven web developer building and managing Websites and web applications that leads to the success of the overall product.
               </p>
@@ -220,6 +222,9 @@
         <li>
            web optimization
         </li>
+        <li>
+          Testing and Debugging
+        </li>
         </ul>
   </div>
     <div class="home-contact-text">
@@ -244,19 +249,8 @@
   </footer>
 
 </div>
-<script>
-  const image = document.getElementById('personalImage');
-  let isUp = false;
 
-  image.onclick = function() {
-      if (isUp) {
-          image.style.transform = 'translateY(0)';
-      } else {
-          image.style.transform = 'translateY(-60px)'; 
-      }
-      isUp = !isUp; 
-  };
-</script>
+
 <script src="header.js" defer></script>
   </body>
 </html>
