@@ -89,7 +89,11 @@
          
           background-color: #ffffff !important;
         }
-       
+        #personalImage {
+            width: 200px; /* Adjust as needed */
+            transition: transform 0.5s ease; /* Smooth transition */
+            cursor: pointer; /* Change cursor to pointer */
+        }
         }
       </style>
   </head>
@@ -115,7 +119,7 @@
               <p>frank osei <span>Software <br>engineer</span></p>
             </div>
             <div class="home-me-text-container"  >
-              <h1 id="home">HEY!, I'M FRANK OSEI</h1>
+              <h1>HEY!, I'M FRANK OSEI</h1>
               <p>
                 A result-driven web developer building and managing Websites and web applications that leads to the success of the overall product.
               </p>
@@ -160,12 +164,15 @@
           </li>
           </ul>
       </div>
+
       <section id="about_me_id">
 
         <div class="about-me-container">
           <div class="about_image">
             <figure>
-              <img src="./images_folder/frank_image.webp" alt="Frank Image" class="frank-image-about" >
+              <img src="./images_folder/frank_image.webp" alt="personal_image" class="frank-image-about" id="personalImage" >
+              <img src="./images_folder/frank_image.webp" alt="personal_image" class="frank-image-large-screen">
+
               <figcaption>Skilled with Vision and Passion</figcaption>
             </figure>
           </div>
@@ -235,7 +242,21 @@
       <a href="#contact_id">contact</a>
      </div>
   </footer>
+
 </div>
+<script>
+  const image = document.getElementById('personalImage');
+  let isUp = false;
+
+  image.onclick = function() {
+      if (isUp) {
+          image.style.transform = 'translateY(0)';
+      } else {
+          image.style.transform = 'translateY(-60px)'; 
+      }
+      isUp = !isUp; 
+  };
+</script>
 <script src="header.js" defer></script>
   </body>
 </html>
