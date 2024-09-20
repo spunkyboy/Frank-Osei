@@ -28,13 +28,14 @@ html{
   color: #FFFFFF;
   align-self: center;
   padding: 2rem 1rem;
-  background-color: #2d4909;
+  background-color:#424842;
+
 }
  .home-content-grid{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  background-color: #2D4909;
+  background-color:#424842;
   line-height: 1.5;
   align-self: center;
   justify-self: center;
@@ -83,7 +84,7 @@ html{
 
  .download, 
  a{
-  color:#2D4909;
+  color:#424842;
   margin: auto;
  }
  .skills-items{
@@ -93,6 +94,7 @@ html{
  }
  .skills-items li{
   margin: 3rem 0rem;
+  color:#424842;;
  }
 .applications{
   text-align: center;
@@ -103,14 +105,13 @@ html{
 }
 .foot_items{
   display: flex;
-  background-color: rgb(9, 8, 8);
   padding: 2rem 1rem;
   justify-content: space-between;
   align-items: center;
   margin-top: 3rem;
 }
 .footer-list-center li{
-  color: #FFFFFF;
+  color: #424842;
   padding: 1rem;
   text-transform: uppercase;
   font-size: 1rem;
@@ -130,7 +131,7 @@ html{
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  color: #2D4909;
+  color:#424842;;
   text-transform: uppercase;
 }
 
@@ -144,13 +145,13 @@ font-size: 1.7rem;
   font-size: 1.7rem;
 }
 .home-contact-icons li a {
-  color: #FFFFFF;
+  color: #424842;
 }
 /* about me page Heading and text */
 .about-me-container{
   display: grid;
   grid-template-columns: auto auto;
-  gap: 0rem;
+  gap:0rem;
  
 }
 p:nth-last-child(2){
@@ -159,16 +160,16 @@ p:nth-last-child(2){
 .about_text{
   grid-column: 1;
   grid-row: 1;
-  color: #FFFFFF;
+  color:#424842;
   align-self: center;
   line-height: 1.5;
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 250;
   padding: 1rem;
-  background-color: #2D4909;
   border-bottom-right-radius: 2rem;
   border-top-right-radius: 2rem;
+  border: 0.1rem solid #424842;
 }
 .frank-image-large-screen{
   width: 100%;
@@ -189,7 +190,7 @@ p:nth-last-child(2){
 }
 .about_text
 >h3{
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -218,7 +219,7 @@ figure figcaption{
   flex-direction: column;
   align-items:center;
   gap: 2rem;
-  background-color:#2D4909;
+  background-color:#424842;
   padding: 3rem 0rem;
  }
  .contact-input{
@@ -230,7 +231,7 @@ figure figcaption{
   width: 15rem;
  }
  .contact-input:focus{
-  background-color: #c9f09aa0;
+  background-color:#757875;;
  }
 
  .contact-submit{
@@ -241,7 +242,7 @@ figure figcaption{
   border-radius: 1rem;
   font-size: 1rem;
   font-weight: 500;
-  color: #2D4909;
+  color:#424842;;
   background-color:rgb(229, 237, 244) !important;
  }
 
@@ -250,7 +251,7 @@ figure figcaption{
 }
 .foot_nav a{
     display: block;
-    color: #ffffff;
+    color: #424842;
     margin: 1.5rem 1rem;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
@@ -283,16 +284,16 @@ figure figcaption{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 7rem auto;
-   
   }
   .about_text{
     z-index: 2;
-   grid-row: 2;
-   line-height: 1.5;
-   font-family: "Poppins", sans-serif;
+    grid-row: 2;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
     font-weight: 250;
     padding: 1rem;
-    background-color: #2D4909;
+    color:#424842;
+    background-color:#FFFFFF;
     border-bottom-right-radius: 0rem;
     border-top-right-radius: 0rem;
     text-align: center;
@@ -308,6 +309,8 @@ figure figcaption{
   }
   .about-me-container p{
     font-size: 1.2rem;
+    font-weight: 300;
+    color: #424842;
   }
   p:nth-last-child(2){
     margin: 1rem 0rem;
@@ -323,6 +326,16 @@ figure figcaption{
 }
 .frank-image-large-screen{
   display: none;
+}
+
+.about_text
+>h3{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #424842;
 }
 }
 /*  mobile device  */
@@ -386,7 +399,7 @@ figure figcaption{
  }
  .foot_nav a{
     display: block;
-    color: #ffffff;
+    color: #424842;
     margin: 1.2rem 0rem;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
@@ -395,4 +408,8 @@ figure figcaption{
 .home-contact-icons  li a{
  margin: auto;
 }
+.contact-container h4{
+  color: #424842;
+}
+
 }

@@ -1,4 +1,4 @@
-function toggleDropdown() {
+function toggleDropdown(){
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
@@ -22,15 +22,18 @@ function myPortfolios() {
     alert("still in progress...");
    }
 
-window.onclick = function(event) {
-    if (!event.target.matches('#button_2')) {
-        closeDropdown();
+
+if (typeof window !== 'undefined') {
+    window.onclick = function(event) {
+        if (!event.target.matches('#button_2')) {
+            closeDropdown();
+        }
     }
 }
 
-
-const image = document.getElementById('personalImage');
-let isUp = false;
+if (typeof document !== 'undefined') {
+    const image = document.getElementById('personalImage');
+    let isUp = false;
 
 image.onclick = function() {
     if (isUp) {
@@ -41,14 +44,22 @@ image.onclick = function() {
     isUp = !isUp; 
 };
 
-const element = document.getElementById('button_2');
+}
+
+
+if (typeof document !== 'undefined') {
+    const element = document.getElementById('button_2');
 function updateContent() {
     if (window.matchMedia("(max-width: 724px)").matches) {
-        element.innerHTML = "&#x2630";
+        element.innerHTML = "&#x2630;";
+
     } else {
-        element.innerHTML = '<span style="font-weight:bold;">F.O</span>';
+        element.innerHTML = '<span style="font-weight:bold;">FRANK</span>';
     }
 }
 
 updateContent();
 window.addEventListener('resize', updateContent);
+
+}
+
